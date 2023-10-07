@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  navbarcolor fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand navbar-fixed-top" href="#">Edison.T</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#introduction">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#background">Background</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">ContactMe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section id="introduction">
+      <div class="introduction-container ">
+         <img src="images/programming.png" alt="programming image" class="programmingimage">
+         <div>
+          <h1>I'm Edison.</h1>
+          <p >a future full-stack developer.</p>
+         </div>
+      </div>
+    </section>
+
+    <section id="background">
+        <div class="background-container">
+            <img src="images/Profilepic.PNG" alt="profilepicture" class="profilepicture">
+            <h2>Hi</h2>
+            <p class="background-paragraph">As a college student enrolled in an IT course, I struggled for two years to understand some of the lectures, feeling lost and demotivated about my ability to become a programmer. That was until I came across this website and discovered their course. It provided me with the guidance and motivation I needed, as well as actionable steps to improve my skills. Thanks to this course, my HTML and CSS abilities have improved significantly compared to before.
+            </p>
+            <div class="resume-container">
+              <a class="resume" href="https://rage-spec.github.io/My-portfolio-project-v1/" target="_blank"> <button type="button" class="btn  btn-lg px-5 resume-button-color">My Resume </button></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+      <div class="skills-text">
+        <h2>Skills</h2>
+      </div>
+        <div class="skills-container">
+          
+             <div class="skills">
+              <img src="images/html.PNG" alt="test" class="skill-image">
+              <h3>HTML</h3>
+              <p>My html skills have improved a lot eversince my first website that i have created i now know when to use certain elements and how to apply them.</p>
+             </div>
+             <div class="skills">
+              <img src="images/css.PNG" alt="test" class="skill-image">
+              <h3>CSS</h3>
+              <p>I have profilent knowledge on how to use bootstrap , grid , flexbox and how to make a website responsive to different 
+                devices.
+              </p>
+             </div>
+             <div class="skills">
+              <img src="images/database.jpg" alt="test" class="skill-image">
+              <h3>Database Enginnering </h3>
+              <p>I have good knowledge on using mysql to create oltp and olap using mysql ,ERD  and EERD and do analysis of data in the database to get the require result from the client. </p>
+           </div>
+        </div>
+    </section>
+    <section id="projects">
+      <div class="projects-text">
+        <h2>projects</h2>
+      </div>
+         <div class="projects-container">
+         <div id="carouselExampleIndicators" class=" container carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/pricing plan.PNG" class="d-block test project-image" alt="...">
+              <a class="project-link" href="https://rage-spec.github.io/pricing-plan-Project/" target="_blank"> <button type="button" class="btn  btn-lg px-5 project-button-color">View Project</button></a>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/mondrain.PNG" class="d-block test project-image" alt="...">
+              <a class="project-link" href="https://rage-spec.github.io/Mondrian-Project/" target="_blank"> <button type="button" class="btn  btn-lg px-5 project-button-color">View Project</button></a>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/tindog.PNG" class="d-block test project-image" alt="...">
+              <a class="project-link" href="https://rage-spec.github.io/Tindog-Project/" target="_blank"> <button type="button" class="btn  btn-lg px-5 project-button-color">View Project</button></a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="contactme">
+        <div class="contactme-container">
+          <h3>you can contact Me through email.</h2>
+          <a class="contact-link" href="mailto:edisontan89@outlook.com"><button type="button" class="btn  btn-lg px-5 contact-button-color">Contact Me</button></a>
+        </div>
+    </section>
+
+    <section id="footer">
+      <footer>
+        <div class="footer-container">
+          <p>Copyright ©  2023 Edison. All Rights Reserved.</p>
+        </div>
+        
+      </footer>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
